@@ -4,7 +4,7 @@ rm -f text.txt
 touch text.txt
 echo -e "Windows is new 2000 \n Linux is old 7000 \n OS is brand new 1000" > text.txt
 
-echo "enter filename to print from awk"
+echo "enter filename to print from different awk"
 
 read filename
 
