@@ -3,7 +3,7 @@
 
 #When called, this script has the purpose of translating state initials into full state name.
 
-read "State initials " 
+read "State initials" 
 
 case $REPLY in
 
@@ -35,7 +35,7 @@ echo "Washington D.C";;
 echo "Ohio";;
 
 * )
-echo "enetr valid state initials"
+echo "enter valid state initials"
 
 esac
 
