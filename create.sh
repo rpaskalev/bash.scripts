@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -n "Please enter filename you woul dlike to create: "
+echo -n "Please enter textfile you woul dlike to create: "
 
 read FILENAME
 
