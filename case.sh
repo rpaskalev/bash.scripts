@@ -3,7 +3,7 @@
 
 #When called, this script has the purpose of translating state initials into full state name.
 
-read "State initials " 
+read -p "State initials " 
 
 case $REPLY in
 
