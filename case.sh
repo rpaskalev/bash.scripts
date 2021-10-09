@@ -3,7 +3,7 @@
 
 #When called, this script has the purpose of translating state initials into full state name.
 
-read "State initials " 
+read -p "State initials " 
 
 case $REPLY in
 
@@ -40,12 +40,11 @@ echo "enetr valid state initials"
 esac
 
 if [[ $REPLY =~ ^OH|NY|VA|AZ|MD|FL|TX|CA|DC ]]
-then ;
+then
 echo "YEY! you fixed it"
 elif [[ $REPLY !=  @(def|OH|NY|VA|AZ|MD|FL|TX|CA|DC) ]] 
-then ;
+then
 echo "FIX AS WELL!"
-else ;
+else
 echo "Not fixed"
 fi
-
