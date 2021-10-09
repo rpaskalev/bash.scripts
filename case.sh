@@ -3,7 +3,7 @@
 
 #When called, this script has the purpose of translating state initials into full state name.
 
-read "State initials " 
+read -p "State initials " 
 
 case $REPLY in
 
@@ -46,6 +46,6 @@ elif [[ $REPLY !=  @(def|OH|NY|VA|AZ|MD|FL|TX|CA|DC) ]]
 then ;
 echo "FIX AS WELL!"
 else ;
-echo "Not fixed"
+echo "I fixed it!"
 fi
 
