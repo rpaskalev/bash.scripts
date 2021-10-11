@@ -7,5 +7,5 @@ do
 	then	
 		continue
 	fi
-	echo $i
+	echo this one $i
 done
