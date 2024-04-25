@@ -6,10 +6,11 @@
 # 3. rename a file in the bucket 
 # 4. delete the bucket 
 
+# create s3 bucket 
 echo -e '\nEnter  the name of the bucket you want to create :'
 read bucket_name
 
-# create s3 bucket 
+
 aws s3api create-bucket  --bucket $bucket_name
 echo -e '\n New Bucket is created'
 
