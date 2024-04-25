@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Please enter your name"
+read name
+date=$(date)
+echo "Hello $name. It is $date today."
